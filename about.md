@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Linux developer hailing from (hot-as-balls) Las Vegas, NV. Ice hockey player and metal-head.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Web developer specializing in Python-Django development.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ashley.joshua@gmail.com](mailto:ashley.joshua@gmail.com)
