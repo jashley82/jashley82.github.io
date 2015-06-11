@@ -9,7 +9,7 @@ parser.add_argument('title', help='title of post', type=str)
 args = parser.parse_args()
 now = arrow.now().format('YYYY-M-D')
 
-filename = '{}-{}'.format(now, args.title.replace(' ', '-'))
+filename = '{}-{}.md'.format(now, args.title.replace(' ', '-'))
 fh = open('_posts/{}'.format(filename), 'w')
 
 fh.write('---')
