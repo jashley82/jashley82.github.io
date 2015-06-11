@@ -12,4 +12,4 @@ Web developer specializing in Python-Django development.
 
 ### Contact me
 
-[ashley.joshua@gmail.com](mailto:ashley.joshua@gmail.com)
+[jashley82000@gmail.com](mailto:jashley82000@gmail.com)
