@@ -1,11 +1,8 @@
 ---
 layout: post
-title: Starting from scratch
+title: Generate an SSH Key Pair
 ---
 
-New blog. New system. Let's start with the basics.
-
-### Generate an SSH key pair
 In order to clone the repo for this blog, first an SSH key needs to be generated and uploaded to Github.
 
 ```bash
