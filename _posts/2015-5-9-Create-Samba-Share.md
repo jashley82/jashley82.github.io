@@ -14,7 +14,7 @@ sudo smbpasswd -a josh
 ```
 
 Create an entry in /etc/samba/smb.conf
-```
+```bash
 [movies]
   path = /media/josh/storage/movies
   available = yes
