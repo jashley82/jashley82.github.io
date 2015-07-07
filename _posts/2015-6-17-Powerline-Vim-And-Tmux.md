@@ -34,8 +34,12 @@ source /usr/local/lib/python2.7/dist-packages/powerline/bindings/tmux/powerline.
 set-option -g default-terminal "screen-256color"
 ```
 
-Enable 256 color mode in ~/.bashrc.
+and in ~/.bashrc.
 
 ```
 export TERM=xterm-256color
+
+if [ -f /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh ]; then
+    source /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh
+fi  
 ```
