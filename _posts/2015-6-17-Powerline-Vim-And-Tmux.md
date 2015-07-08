@@ -39,7 +39,8 @@ and in ~/.bashrc.
 ```
 export TERM=xterm-256color
 
-if [ -f /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh ]; then
-    source /usr/local/lib/python2.7/dist-packages/powerline/bindings/bash/powerline.sh
+powerline_path=$(python -c 'import pkgutil; print pkgutil.get_loader("powerline").filename' 2>/dev/null)
+if [[ "$powerline_path" != "" ]]; then
+    source ${powerline_path}/bindings/bash/powerline.sh
 fi  
 ```
