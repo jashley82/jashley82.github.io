@@ -10,10 +10,12 @@ E: Encountered a section with no Package: header
 E: Problem with MergeList /var/lib/apt/lists/repo.steampowered.com_steam_dists_precise_steam_i18n_Translation-en
 E: The package lists or status file could not be parsed or opened.
 ```
+
 The solution was to remove cache directories 
 ```bash
 sudo rm -r /var/cache/apt /var/lib/apt/lists
 ```
+
 and re-run the command
 ```bash
 sudo apt-get update
