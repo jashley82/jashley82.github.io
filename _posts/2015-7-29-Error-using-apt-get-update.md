@@ -3,7 +3,7 @@ layout: post
 title: Error using apt-get update
 ---
 
-Running ```apt-get update``` returned the following error:
+Running ```apt-get update``` returned the following error.
 
 ```
 Reading package lists... Error!
