@@ -4,6 +4,7 @@ title: Error using apt-get update
 ---
 
 Running ```apt-get update``` returned the following error:
+
 ```
 Reading package lists... Error!
 E: Encountered a section with no Package: header
@@ -12,11 +13,13 @@ E: The package lists or status file could not be parsed or opened.
 ```
 
 The solution was to remove cache directories 
+
 ```bash
 sudo rm -r /var/cache/apt /var/lib/apt/lists
 ```
 
 and re-run the command
+
 ```bash
 sudo apt-get update
 ```
