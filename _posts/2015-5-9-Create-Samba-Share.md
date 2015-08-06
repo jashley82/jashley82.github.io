@@ -13,7 +13,8 @@ Set a password.
 sudo smbpasswd -a josh
 ```
 
-Create a share in ```/etc/samba/smb.conf```
+Create an entry in /etc/samba/smb.conf
+
 ```
 [movies]
   path = /media/josh/storage/movies
@@ -30,4 +31,4 @@ Restart the service.
 sudo service smbd restart
 ```
 
-Now make sure ```/media/josh/storage``` gets properly mounted and g2g.
+Now make sure the drive gets properly mounted and g2g.

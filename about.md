@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Linux developer hailing from (hot-as-balls) Las Vegas, NV. Ice hockey player and metal-head.
+Hailing from Las Vegas, NV. Ice hockey player and metal-head. 
 
 ### More Information
 
-Web developer specializing in Python-Django development.
+Web developer specializing in Python-Django development on a Linux environment.
 
 ### Contact me
 
