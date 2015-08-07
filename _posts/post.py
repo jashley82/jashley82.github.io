@@ -10,7 +10,7 @@ args = parser.parse_args()
 now = arrow.now().format('YYYY-M-D')
 
 filename = '{}-{}.md'.format(now, args.title.replace(' ', '-'))
-fh = open('_posts/{}'.format(filename), 'w')
+fh = open('{}'.format(filename), 'w')
 
 fh.write('---')
 fh.write('\n')
