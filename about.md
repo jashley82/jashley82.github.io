@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Hailing from Las Vegas, NV. Ice hockey player and metal-head. 
+This is my personal blog that I use for trivial mundane purposes.
 
 ### More Information
 
-Web developer specializing in Python-Django development on a Linux environment.
+Web developer specializing in Python-Django and Ruby on Rails development on a Linux environment.
 
 ### Contact me
 
