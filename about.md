@@ -4,11 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is my personal blog that I use for trivial mundane purposes.
+This is my personal blog that I use for trivial mundane purposes. In the pages within, you may find
+darkness and terror, various first drafts and specifications, rants, etc.
 
 ### More Information
 
-Web developer specializing in Python-Django and Ruby on Rails development on a Linux environment.
+Linux developer with experience in Python Django and Ruby on Rails development.
 
 ### Contact me
 
