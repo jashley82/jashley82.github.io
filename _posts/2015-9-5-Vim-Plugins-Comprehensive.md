@@ -17,6 +17,9 @@ A working list of Vim plugins to make Vim an elite operating system
   3. vim history export
 * code completion
 * refactoring
+  1. Reformat plain text.
+    * remove existing newlines.
+    * place newline characters after every 79th character.
 * syntax checking
   1. syntastic
 * viewing logs
