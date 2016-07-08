@@ -5,13 +5,13 @@ title: Powerline Vim And Tmux
 
 Install powerline via pip.
 
-```bash
+```
 sudo pip install powerline-status
 ```
 
 Install font packages and regenerate font cache.
 
-```bash
+```
 wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf 
 wget https://github.com/Lokaltog/powerline/raw/develop/font/10-powerline-symbols.conf
 sudo mv PowerlineSymbols.otf /usr/share/fonts/
